@@ -1,10 +1,24 @@
+import {Site} from "./classes/site";
+
+import {model} from './model'
+const site = new Site('#site')
+site.render(model)
+
+import {model2} from './model'
+const site2 = new Site('#site2')
+site2.render(model2)
+
+import {model3} from './model'
+const site3 = new Site('#site3')
+site3.render(model3)
+
+
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel();
 });
 
 $('.owl-slider').owlCarousel({
     items: 1,
-    // margin: 0,
     loop: true,
 
     nav: true,
@@ -54,7 +68,6 @@ $('.owl-items').owlCarousel({
 // $( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
 
 $('.owl-brands').owlCarousel({
-    // margin: 0,
     loop  : true,
     navText: [
         "<i class='fa fa-chevron-left'></i>",
@@ -82,7 +95,6 @@ $('.owl-brands').owlCarousel({
 })
 
 $('.owl-numbers').owlCarousel({
-    // margin: 0,
     loop  : true,
     navText: [
         "<i class='fa fa-chevron-left'></i>",

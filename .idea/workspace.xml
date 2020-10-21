@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="683a9570-8377-4232-ad23-07c201056fc1" name="Default Changelist" comment="" />
+    <list default="true" id="683a9570-8377-4232-ad23-07c201056fc1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hKyH8pX3lzGiXAnBrsCf80E5vT" />
   <component name="ProjectViewState">
@@ -16,7 +24,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -58,6 +66,11 @@
       <workItem from="1602805195988" duration="1229000" />
       <workItem from="1602858005973" duration="555000" />
       <workItem from="1602881752833" duration="637000" />
+      <workItem from="1603065724378" duration="173000" />
+      <workItem from="1603131698315" duration="2299000" />
+      <workItem from="1603188950183" duration="2594000" />
+      <workItem from="1603289644519" duration="5553000" />
+      <workItem from="1603315370564" duration="3860000" />
     </task>
     <servers />
   </component>
@@ -69,10 +82,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="735" y="293" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602171838287" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1602171860644">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1603131887612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602171860644" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603131887612" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1601938005609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
