@@ -46,19 +46,15 @@ $('.owl-items').owlCarousel({
     responsive: {
         0: {
             items: 1,
-            // margin: 0
         },
         500: {
             items: 2,
-            // margin: 0
         },
         750: {
             items: 3,
-            // margin: 30
         },
         980: {
             items: 4,
-            // margin: 10
         }
     }
 })
@@ -77,12 +73,10 @@ $('.owl-brands').owlCarousel({
         750: {
             items: 5,
             nav: true,
-            // margin: 50
         },
         980: {
             items: 7,
             nav: true,
-            // margin: 20
         },
         1140: {
             items: 9,

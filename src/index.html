@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <title>HOMY.RU Обрудование и решения длоя VoIP</title>
-    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="src/style/styles.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/style/modal.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/plugins/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="/src/plugins/owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="/src/plugins/fontawesome-free/css/all.css">
+    <link rel="shortcut icon" href="#">
 </head>
 
 <body>
@@ -88,7 +91,7 @@
 
         <div class="bin-block">
             <div class="authorization">
-                <a href="#" id="authorization">Войти</a>
+                <a href="#" id="authorization" onclick="openModal()">Войти</a>
                 <a href="#" id="account">Личный кабинет</a>
             </div>
             <a href="#">
@@ -528,10 +531,10 @@
 </footer>
 
 
-<script src="src/index.js"></script>
-<script src="/src/plugins/owlcarousel/jquery.min.js"></script>
-<script src="/src/plugins/owlcarousel/owl.carousel.min.js"></script>
+<script src="src/plugins/jquery-3.5.1.js"></script>
+<script src="src/plugins/owlcarousel/owl.carousel.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="src/index.js"></script>
 <script src="src/modal.js"></script>
 </body>
 </html>

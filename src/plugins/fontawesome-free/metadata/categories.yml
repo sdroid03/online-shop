@@ -699,7 +699,7 @@ editors:
     - bold
     - border-all
     - border-none
-    - border-style
+    - border-css
     - clipboard
     - clone
     - columns
