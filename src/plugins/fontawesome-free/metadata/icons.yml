@@ -15437,7 +15437,7 @@ remove-format:
       - font
       - format
       - remove
-      - style
+      - css
       - text
   styles:
     - solid
@@ -20646,7 +20646,7 @@ vest:
     terms:
       - biker
       - fashion
-      - style
+      - css
   styles:
     - solid
   unicode: e085
@@ -20660,7 +20660,7 @@ vest-patches:
     terms:
       - biker
       - fashion
-      - style
+      - css
   styles:
     - solid
   unicode: e086
