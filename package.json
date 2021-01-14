@@ -23,11 +23,7 @@
   },
   "dependencies": {
     "node-sass": "^5.0.0",
-<<<<<<< HEAD
     "sweetalert2": "^10.13.0",
     "source-map-loader": "^1.0.0"
-=======
-    "sweetalert2": "^10.13.0"
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   }
 }

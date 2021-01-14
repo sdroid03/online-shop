@@ -3,7 +3,6 @@ $white-color: #FFFFFF;
 $main-orange-color: #ff5816;
 $section-headline-size: 22px;
 
-<<<<<<< HEAD
 /*-----------------------------ОБЩИЕ-------------------------------------*/
 
 body{
@@ -97,8 +96,6 @@ button {
   }
 }
 
-=======
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
 /*-----------------------------ВЕРХНЕЕ МЕНЮ-------------------------------------*/
 
 .black-menu {
@@ -110,19 +107,10 @@ button {
 .upper-menu {
   padding: 10px 0;
   align-items: center;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   display: flex;
   justify-content: space-between;
-
   a {
     color: $white-color;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
     &:hover {
       opacity: 0.8;
     }
@@ -148,10 +136,6 @@ header{
   justify-content: space-between;
   margin-top: 10px;
   margin-bottom: 20px;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   a{
     color: black;
   }
@@ -167,7 +151,6 @@ header{
   display: flex;
   font-size: 46px;
   margin-top: 10px;
-<<<<<<< HEAD
   align-items: center;
   &:hover {
     color: $main-orange-color;
@@ -179,7 +162,8 @@ header{
     /*w75 h46*/
     width: 80px;
     height: 50px;
-    p{
+
+    p {
       color: $main-orange-color;
       font-size: 46px;
       text-align: center;
@@ -187,36 +171,14 @@ header{
       line-height: 50px;
       font-weight: bold;
     }
-=======
-
-  align-items: center;
+  }
 }
 
 .logo:hover {
   color: $main-orange-color;
 }
 
-.logo .logo-my {
-  background-image: url("/src/img/logo_bg.png");
-  background-position: bottom -25px left -48px;
-  background-repeat: no-repeat;
-
-  /*w75 h46*/
-  width: 80px;
-  height: 50px;
-
-  p{
-    color: $main-orange-color;
-    font-size: 46px;
-    text-align: center;
-    height: 50px;
-    line-height: 50px;
-    font-weight: bold;
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
-  }
-}
-
-.logo-sign {
+  .logo-sign {
   font-size: 11px;
   color: #a3a6a8;
 }
@@ -230,26 +192,16 @@ header{
   background-image: url(/src/img/callback_bg.png);
   background-repeat: no-repeat;
   width: 120px;
-<<<<<<< HEAD
   position: relative;
   top: 5px;
-=======
   /*height: 60px;*/
   /*border-radius: 10px;*/
   /*border: 2px solid #dbdee6;*/
-  position: relative;
-  top: 5px;
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   a {
     text-transform: uppercase;
     color: $link-color;
     text-decoration: underline dotted;
     /*line-height: 60px;*/
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
     position: relative;
     top: 7px;
     left: 15px;
@@ -263,10 +215,6 @@ header{
 
 .contacts-messengers {
   display: flex;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   img {
     width: 16px;
     height: 16px;
@@ -285,10 +233,6 @@ header{
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   img {
     width: 30px;
     height: 30px;
@@ -311,10 +255,6 @@ header{
 
 .search {
   display: flex;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   input {
     border: 0;
     background: #eff0f4;
@@ -323,10 +263,6 @@ header{
     padding: 10px 15px;
     outline: none;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   button {
     border: 0;
     background: $main-orange-color;
@@ -342,10 +278,6 @@ header{
 
 .authorization {
   margin-bottom: 15px;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   a {
     font-size: 13px;
     color: $link-color;
@@ -362,18 +294,10 @@ header{
 
 .bin-button {
   font-size: 13px;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   a {
     font-size: 13px;
     text-decoration: underline dotted;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   i {
     margin-right: 5px;
   }
@@ -421,10 +345,6 @@ header{
   a {
   color: white;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   li {
     padding-left: 10px;
     padding-right: 10px;
@@ -439,10 +359,6 @@ header{
 
 .menu-arrow {
   background: #c44411;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   a {
     font-size: 20px;
     margin-top: 2px;
@@ -459,10 +375,6 @@ ul{
 nav {
   color: black;
   margin: 0 auto;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   li{
     border-right: 1px solid #ff743d;
     border-bottom: 3px solid #c44411;
@@ -489,15 +401,8 @@ nav {
 .news-side {
   /*!!!!!!!!!!!!!!!!!*/
   width: 24%;
-<<<<<<< HEAD
   h1 {
     font-size: $section-headline-size;
-=======
-
-  h1 {
-    font-size: $section-headline-size;
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
     margin-top: 15px;
     /*margin-bottom: 32px;*/
   }
@@ -509,10 +414,6 @@ nav {
 
 .news-post {
   display: flex;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   img {
     width: 60px;
     height: 60px;
@@ -539,15 +440,8 @@ nav {
   background: white;
   border-radius: 3px;
   color: #ff5816;
-<<<<<<< HEAD
   position: relative;
   left: 12px;
-=======
-
-  position: relative;
-  left: 12px;
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   h5{
     text-align: center;
     line-height: 25px;
@@ -556,39 +450,26 @@ nav {
 
 .news-post {
   border-bottom: 1px dashed #dbdee6;
-<<<<<<< HEAD
   h5 {
     font-size: 13px;
   }
   p {
     font-size: 13px;
   }
-=======
-
   h5 {
     font-size: 13px;
   }
-
   p {
     font-size: 13px;
   }
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   + .news-post {
     margin-top: 10px;
   }
 }
 
 .post-info {
-<<<<<<< HEAD
   bottom: 5px;
   position: relative;
-=======
-
-  bottom: 5px;
-  position: relative;
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   a {
     font-size: 13px;
     color: #4673ab;
@@ -611,11 +492,7 @@ nav {
   height: 370px;
   background-image: url(/src/img/slide-bg.png);
   background-repeat: no-repeat;
-<<<<<<< HEAD
   border-radius: 10px; /*fix it*/
-=======
-  border-radius: 10px;
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   background-position: center;
 }
 
@@ -623,26 +500,14 @@ nav {
   position: relative;
   top: 50px;
   left: 70px;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   h1{
     font-size: 31px;
     color: #ff5816;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   h2{
     font-size: 29px;
     color: white;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   h3{
     font-size: 18px;
     color: white;
@@ -652,12 +517,7 @@ nav {
 .slider-list {
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   color: $white-color;
-=======
-  color: white;
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   li {
     font-size: 15px;
     list-style: disc;
@@ -674,10 +534,6 @@ nav {
   border-bottom: 3px solid #c4c4c4;
   outline: none;
   color: #4673ab;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   &:hover {
     background: #ff5816;
     border-bottom: 3px solid #c44411;
@@ -692,24 +548,12 @@ nav {
   text-transform: uppercase;
   font-style: italic;
   text-align: center;
-<<<<<<< HEAD
   p {
     font-size: 15px;
   }
   .style1 {
     font-weight: bold
   }
-=======
-
-  p {
-    font-size: 15px;
-  }
-
-  .style1 {
-    font-weight: bold
-  }
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   .style2 {
     color: #4673ab
   }
@@ -717,10 +561,6 @@ nav {
 
 .slider {
   margin-top: 32px;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   img{
     /*width: 847px;*/
     /*height: 369px;*/
@@ -747,22 +587,11 @@ nav {
   border-radius: 10px;
   text-align: center;
   width: 230px;
-<<<<<<< HEAD
   z-index: 1;
   position: relative;
   &:hover {
     border: 1px solid #ff5816;
   }
-=======
-
-  z-index: 1;
-  position: relative;
-
-  &:hover {
-    border: 1px solid #ff5816;
-  }
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   .label {
     display: flex;
     flex-direction: column;
@@ -771,10 +600,6 @@ nav {
     height: 35px;
     font-weight: bold;
     color: white;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
     left: 10px;
     bottom: 4px;
     position: relative;
@@ -782,28 +607,16 @@ nav {
 
     z-index: 9999;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   h1 {
     font-size: 15px;
     padding: 5px 0;
     font-weight: bold;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   .price {
     display: flex;
     padding: 5px 0;
     justify-content: center;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   .buttons {
     padding: 5px 0;
     .to-buy {
@@ -854,10 +667,6 @@ nav {
   .percent {
     font-size: 20px;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   .triangle {
     width: 0;
     height: 0;
@@ -882,21 +691,11 @@ nav {
   width: 130px;
   height: 170px;
   margin: 0 auto;
-<<<<<<< HEAD
   position: relative;
-=======
-
-  position: relative;
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   img {
     width: 100%;
     height: auto;
     max-height: 170px;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
     position: absolute;
     top: 0;
     bottom: 0;
@@ -911,7 +710,6 @@ nav {
 .old-price {
   color: #ff5816;
   text-decoration: line-through;
-<<<<<<< HEAD
 }
 
 /*-----------------------------ПАРТНЁРЫ-------------------------------------*/
@@ -1550,7 +1348,7 @@ footer {
   }
 
   .items-block .owl-prev,
-  .items-block .owl-next{
+  .items-block .owl-next {
     top: -26.5%;
   }
 
@@ -1558,6 +1356,7 @@ footer {
     .owl-prev {
       right: 90px;
     }
+
     .owl-next {
       right: 30px;
     }
@@ -1570,6 +1369,4 @@ footer {
     /*float: none;*/
     display: inline-block;
   }
-=======
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
 }

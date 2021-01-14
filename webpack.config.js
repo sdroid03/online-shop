@@ -33,7 +33,6 @@ module.exports = {
                     },
                 ],
             },
-<<<<<<< HEAD
             // {
             //     test: /\.s[ac]ss$/i,
             //     use: [
@@ -45,23 +44,6 @@ module.exports = {
             //         "sass-loader",
             //     ],
             // },
-            {
-                test: /\.js$/,
-                enforce: 'pre',
-                use: ['source-map-loader'],
-=======
-            {
-                test: /\.s[ac]ss$/i,
-                use: [
-                    // Creates `style` nodes from JS strings
-                    "style-loader",
-                    // Translates CSS into CommonJS
-                    "css-loader",
-                    // Compiles Sass to CSS
-                    "sass-loader",
-                ],
->>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
-            }
         ]
     }
 }
