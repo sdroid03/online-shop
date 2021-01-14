@@ -1,5 +1,6 @@
 const path = require('path')
 const HTMLWebpackPlugin = require('html-webpack-plugin')
+const SourceMapDevToolPlugin = require("webpack/lib/SourceMapDevToolPlugin");
 
 module.exports = {
     entry: './src/index.js',
@@ -13,6 +14,9 @@ module.exports = {
     plugins: [
         new HTMLWebpackPlugin({
             template: "./src/index.html"
+        }),
+        new SourceMapDevToolPlugin({
+            filename: "[file].map"
         })
     ],
     module: {
@@ -29,16 +33,21 @@ module.exports = {
                     },
                 ],
             },
+            // {
+            //     test: /\.s[ac]ss$/i,
+            //     use: [
+            //         // Creates `styles` nodes from JS strings
+            //         "styles-loader",
+            //         // Translates CSS into CommonJS
+            //         "css-loader",
+            //         // Compiles Sass to CSS
+            //         "sass-loader",
+            //     ],
+            // },
             {
-                test: /\.s[ac]ss$/i,
-                use: [
-                    // Creates `style` nodes from JS strings
-                    "style-loader",
-                    // Translates CSS into CommonJS
-                    "css-loader",
-                    // Compiles Sass to CSS
-                    "sass-loader",
-                ],
+                test: /\.js$/,
+                enforce: 'pre',
+                use: ['source-map-loader'],
             }
         ]
     }

@@ -1,6 +1,6 @@
-import {Site} from "./classes/site";
+import {Site} from "./classes/site.js";
 
-import {model, model2, model3} from './model'
+import {model, model2, model3} from './model.js'
 const site = new Site('#site')
 site.render(model)
 
