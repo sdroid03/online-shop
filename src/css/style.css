@@ -1,4 +1,5 @@
 @charset "UTF-8";
+<<<<<<< HEAD
 /*-----------------------------ОБЩИЕ-------------------------------------*/
 body {
   /*font-family: 'Poppins', sans-serif; /*указывает стиль текста*/
@@ -70,6 +71,8 @@ button {
 .owl-prev i:hover, .owl-next i:hover {
   color: #ff743d; }
 
+=======
+>>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
 /*-----------------------------ВЕРХНЕЕ МЕНЮ-------------------------------------*/
 .black-menu {
   width: 100%;
@@ -110,6 +113,7 @@ header {
   font-size: 46px;
   margin-top: 10px;
   align-items: center; }
+<<<<<<< HEAD
   .logo:hover {
     color: #ff5816; }
   .logo .logo-my {
@@ -126,6 +130,26 @@ header {
       height: 50px;
       line-height: 50px;
       font-weight: bold; }
+=======
+
+.logo:hover {
+  color: #ff5816; }
+
+.logo .logo-my {
+  background-image: url("/src/img/logo_bg.png");
+  background-position: bottom -25px left -48px;
+  background-repeat: no-repeat;
+  /*w75 h46*/
+  width: 80px;
+  height: 50px; }
+  .logo .logo-my p {
+    color: #ff5816;
+    font-size: 46px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold; }
+>>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
 
 .logo-sign {
   font-size: 11px;
@@ -139,6 +163,12 @@ header {
   background-image: url(/src/img/callback_bg.png);
   background-repeat: no-repeat;
   width: 120px;
+<<<<<<< HEAD
+=======
+  /*height: 60px;*/
+  /*border-radius: 10px;*/
+  /*border: 2px solid #dbdee6;*/
+>>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   position: relative;
   top: 5px; }
   .callback a {
@@ -367,7 +397,10 @@ nav {
   background-image: url(/src/img/slide-bg.png);
   background-repeat: no-repeat;
   border-radius: 10px;
+<<<<<<< HEAD
   /*fix it*/
+=======
+>>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   background-position: center; }
 
 .slide-content {
@@ -387,7 +420,11 @@ nav {
 .slider-list {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   color: #FFFFFF; }
+=======
+  color: white; }
+>>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
   .slider-list li {
     font-size: 15px;
     list-style: disc;
@@ -543,6 +580,7 @@ nav {
 .old-price {
   color: #ff5816;
   text-decoration: line-through; }
+<<<<<<< HEAD
 
 /*-----------------------------ПАРТНЁРЫ-------------------------------------*/
 .partners-block h1 {
@@ -1004,3 +1042,5 @@ footer {
   .owl-carousel .item {
     /*float: none;*/
     display: inline-block; } }
+=======
+>>>>>>> 4012be100b43a34ad40171e2feb6558ac6260be0
